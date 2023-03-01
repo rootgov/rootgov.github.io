@@ -6,6 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: "" # See documentation for possible values
+    permissions: write-all
     directory: "/" # Location of package manifests
     schedule:
       interval: "hourly"
